@@ -23,7 +23,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("DROP TABLE IF EXIST user");
+        db.execSQL("DROP TABLE IF exists user");
     }
 
     public boolean Insert(String username, String password){

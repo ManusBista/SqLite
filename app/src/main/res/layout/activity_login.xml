@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/et_lpassword"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/black"
         android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
         android:ems="10"
         android:text="Login" />
 
